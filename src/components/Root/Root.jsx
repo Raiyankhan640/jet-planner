@@ -6,13 +6,13 @@ import Footer from '../Footer/Footer';
 const Root = () => {
     return (
         <>
-            <div>
+            <div className='h-16'>
                 <Header />
+            </div>
+            <div className='min-h-[calc(100vh-117px)]'>
                 <Outlet />
             </div>
-            <div>
                 <Footer />
-            </div>
         </>
     );
 };
